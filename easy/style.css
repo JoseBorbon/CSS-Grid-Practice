@@ -1,0 +1,72 @@
+.container {
+  display: grid;
+  grid-template-rows: repeat(9, 1fr);
+  grid-template-columns: repeat(100, 1fr);
+}
+
+div {
+  border: 5px solid black;
+}
+
+.child1 {
+  grid-row: span 4;
+  grid-column: span 48;
+  background-color: darkred;
+}
+
+.child2 {
+  grid-row: span 4;
+  grid-column: span 52;
+}
+
+.child3 {
+  grid-row: span 2;
+  grid-column: span 48;
+}
+
+.child4 {
+  grid-row: span 2;
+  grid-column: span 52;
+}
+
+.child5 {
+  grid-row: span 3;
+  grid-column: span 12;
+  background-color: yellow;
+}
+
+.child6 {
+  grid-row: span 3;
+  grid-column: span 36;
+  text-
+}
+
+.child-container {
+  display: grid;
+  grid-row: span 3;
+  grid-column: span 30;
+  grid-template-rows: repeat(9, 1fr);
+}
+
+.child7 {
+  grid-row: span 8;
+  grid-column: span 30;
+  background-color: darkblue;
+  border: none;
+  border-bottom: 5px solid black;
+}
+
+.child8 {
+  visibility: hidden;
+  grid-row: span 1;
+  grid-column: span 30;
+}
+
+.child9 {
+  grid-row: span 3;
+  grid-column: span 22;
+}
+
+p {
+    visibility: hidden;
+}
